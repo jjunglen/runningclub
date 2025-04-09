@@ -59,6 +59,18 @@ nav li:hover {
     background-size: cover;
     margin-top: 75px;
     height: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-section .word-container {
+    display: flex;
+    flex-shrink: 1;
+}
+
+.main-section .stride {
+    font-size: 6vw;
 }
 
 /* .box-container {
