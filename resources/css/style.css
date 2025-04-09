@@ -52,7 +52,7 @@ nav li:hover {
 
 /* Main Content */
 
-.main-section {
+.header {
     background-image: url('../jeremy-lapak-CVvFVQ_-oUg-unsplash.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
@@ -60,17 +60,35 @@ nav li:hover {
     margin-top: 75px;
     height: 800px;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-.main-section .word-container {
+.sign-up {
+    background-color: #e2e2e2;
+    height: 250px;
+    width: 250px;
     display: flex;
-    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+    gap: 25px;
 }
 
-.main-section .stride {
+.header .stride {
     font-size: 6vw;
+}
+
+.header button {
+    background-color: #525252;
+    border: 2px solid #d0d0d0; /* Slightly darker border for contrast */
+    color: white; /* Dark text color for readability */
+    font-size: 16px;
+    padding: 12px 20px; /* Adjust padding for better button size */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
 }
 
 /* .box-container {
