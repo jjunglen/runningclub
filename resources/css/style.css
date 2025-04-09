@@ -52,6 +52,15 @@ nav li:hover {
 
 /* Main Content */
 
+.main-section {
+    background-image: url('../jeremy-lapak-CVvFVQ_-oUg-unsplash.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 75px;
+    height: 800px;
+}
+
 /* .box-container {
     margin-top: 75px;
     min-height: 800px;
