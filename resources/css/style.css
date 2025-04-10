@@ -143,6 +143,16 @@ nav li:hover {
     color: tan;
 }
 
+/* Events */
+#events {
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 0;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
 /* .box-container {
     margin-top: 75px;
     min-height: 800px;
